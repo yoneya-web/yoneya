@@ -1,0 +1,596 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------
+* 下層ページ共有部分
+----------------------*/
+/*  hero*/
+.hero_cloud_left {
+    top: 390px;
+}
+.hero{
+    position: relative;
+}
+.parallax.hero{
+    height: 500px;
+}
+.hero_cloud_left {
+    top: 360px;
+}
+.home_hero {
+    height: 510px;
+}
+.common_unit_title {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+/*--------------------
+*acrivity_tamagawa
+----------------------*/
+.activity_title {
+    width: 40vw;
+    max-width: 450px;
+    min-width: 370px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.activity_content_text{
+    line-height: 35px;
+}
+.about_tamagawa_01_img{
+    width: 220px;
+    margin-right: 70px;
+}
+/*--------------------
+*about_01
+----------------------*/
+.about_01{
+    position: relative;
+    background-color: #F1DFAD;
+    background-position: right;
+    background-image:url(../design/images/activity/tamagawa/01/background_place.png) ;
+    background-size: 327px 522px;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+.about_tamagawa_01_content{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 130px;
+}
+.about_tamagawa_01_content_img{
+    width: 220px
+    ;
+}
+/*--------------------
+*about_02
+----------------------*/
+.about_02{
+    position: relative;
+    text-align: center;
+    background-color: #CDE0CD;
+    padding: 100px 0 0 0;
+    height: 330px;
+}
+.about_02_decoration_left{
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    top: -250px;
+    width: 20%;
+    max-width: 270px;
+    min-width: 90px;
+}
+.about_02_decoration_right{
+    position: absolute;
+    z-index: 300;
+    right: 0;
+    top: 250px;
+    width: 29%;
+    max-width: 270px;
+    min-width: 105px;
+}
+/*--------------------
+*about_03
+----------------------*/
+.about_03_content_img{
+    width: 290px;
+    margin: 0 100px;
+}
+
+.about_03_top_img{
+    position: absolute;
+    top: 0px;
+    margin-top: -170px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 100%;
+}
+.about_03{
+    position: relative;
+    background-color: #F1E6D5;
+    height: 560px;
+    padding: 100px;
+}
+.about_03_content{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.about_03_top_left_decoration{
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    top: -150px;
+    width: 33%;
+    max-width: 270px;
+    min-width: 115px;
+}
+.about_03_top_right_decoration{
+    position: absolute;
+    z-index: 300;
+    right: 0;
+    top: 120px;
+    width: 20%;
+    max-width: 270px;
+    min-width: 86px;
+}
+.about_03_under_left_decoration{
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    bottom: -130px;
+    width: 33%;
+    max-width: 270px;
+    min-width: 115px;
+
+}
+
+/*--------------------
+*about_03_footer
+----------------------*/
+.about_03_footer{
+    position: relative;
+}
+.about_03_background_img_04{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    margin-top: -120px;
+}
+.about_03_content_text_04{
+    position: absolute;
+    z-index: 200;
+    color: #fff;
+    line-height: 35px;
+    left: 10vw;
+    bottom: 240px;
+}
+.about_03_content_text_big_cloud{
+    position: absolute;
+    z-index: 400;
+    line-height: 35px;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.about_03_background_img_05{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    bottom: -60px;
+}
+.about_03_content_text_05{
+    display: block;
+    position: absolute;
+    color: #fff;
+    line-height: 35px;
+    right: -50vw;
+    bottom: 11vh;
+}
+/*--------------------
+*about_04
+----------------------*/
+.about_04_right_top_decoration{
+    position: absolute;
+    z-index: 350;
+    right: 0;
+    top: -80px;
+    width: 33%;
+    max-width: 270px;
+    min-width: 115px;
+}
+.about_big_cloud{
+    position: absolute;
+    z-index: 300;
+    width: 100vw;
+    top: -390px;
+
+}
+.about_big_cloud img{
+    max-width: none;
+    height: 90vw;
+    max-height: 700px;
+}
+.about_tamagawa_04_parallax_text{
+    position: absolute;
+    z-index: 350;
+    width: 40%;
+    left: 0;
+    top: 470px;
+}
+.about_04_right_under_decoration{
+    position: absolute;
+    z-index: 350;
+    width: 42%;
+    max-width: 270px;
+    min-width: 155px;
+    left: 0;
+    top: 390px;
+}
+.about_04_under_right_decoration{
+    position: absolute;
+    z-index: 300;
+    bottom: -100px;
+    right: 0;
+    width: 230px;
+    height: 269px;
+    }
+.about_04{
+    position: relative;
+    background-color: #F1DFAD;
+    height: 880px;
+}
+.about_04_previous{
+    margin: 0 70px 0 0;
+}
+.about_04_previous{
+    margin: 0 60px 100px 100px;
+}
+
+.about_04_content{
+    display: flex;
+    justify-content: center;
+}
+.bout_04_content_under{
+    position: relative;
+}
+.about_04_content_under_img{
+    position: absolute;
+    left: 20vw;
+}
+.about_04_content_under_text{
+    position: absolute;
+    right: 44vw;
+    line-height: 35px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+.about_04_content div div{
+    justify-content: center;
+    margin: 35px 0 0 0;
+}
+.about_04_previous div div img {
+    width: 220px;
+    height: 220px;
+}
+.about_04_previous div p {
+    margin: 80px 0 0 15px;
+}
+.about_04_content div img {
+    width: 50vw;
+    max-width: 401px;
+}
+.about_04_top_left_decoration{
+    position: absolute;
+    z-index: 300;
+    left: 0;
+    top: -150px;
+    width: 312px;
+    height: 312px;
+}
+.about_04_top_right_decoration{
+    position: absolute;
+    z-index: 500;
+    right: 0;
+    top: -100px;
+    width: 33%;
+    max-width: 270px;
+    min-width: 115px;
+}
+.about_04_under_left_decoration{
+    position: absolute;
+    z-index: 300;
+    left: 120px;
+    bottom: 70px;
+    width: 85px;
+    height: 155px;
+}
+/*--------------------
+*ここからSP
+----------------------*/
+@media screen and (max-width:640px){
+    /* SP時のCSSをここに記入 */
+    .activity_title{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .hero_cloud_left {
+        top: 400px;
+    }
+    .parallax.hero {
+        height: 800px;
+    }
+    .hero_image_catch {
+        top: 250px;
+        left: 52%;
+    }
+      a[class="flow_line_white"] {
+        top: 440px;   
+    }
+    .waves{
+        margin: 0 auto;
+    }
+    .waves.hero{
+        top: 0px;
+        margin-top: -30px;
+    }
+    /*--------------------
+    *newsbody
+    ----------------------*/
+    .news_body {
+        width: 85%;
+    }
+    .news_body_day {
+        padding: 0 0 0 10px;
+    }
+    .news_body_text {
+        padding: 40px 0 60px 10px;
+    }
+    .count.effect-fade {
+        margin: 100px 2%;
+    }
+    .count {
+        letter-spacing: 2rem;
+    }
+    .news_simple_btn {
+        width: 100px;
+    }
+    .common_unit_title {
+        height: 660px;
+    }
+
+
+  /*--------------------
+    *activity_body
+    ----------------------*/
+    .about_tamagawa_01_content{
+        display: block;
+        position: relative;
+    }
+    .about_tamagawa_01_text_top {
+        position: absolute;
+        top: 200px;
+        margin-left: 40px;
+        font-weight: 500;
+        font-size: 1.7rem;
+        color: #fff;
+    }
+    .about_tamagawa_01_text_under{
+        font-size: 1.7rem;
+        text-align: center;
+        margin: 20px 0 40px 0;
+    }
+    .about_02_decoration_left{
+        top: -80px;
+    }
+    .parallax.tamagawa_about03{
+        background-image: url(../images/activity/tamagawa/02/sp_about_tamagawa_02.jpg);
+        height: 300px;
+        margin: 10px;
+        padding-top: 40px;
+    }
+    .about_tamagawa_01_content{
+        margin: 0 auto;
+    }
+  /*--------------------
+    *about_02
+    ----------------------*/
+    .about_02{
+        height: 180px;
+        padding: 0;
+        padding-top: 40px;
+    }
+    .about_tamagawa_02_text_top {
+        position: absolute;
+        top: 110px;
+        left: 30px;
+        font-weight: 500;
+        font-size: 1.7rem;
+        color: #fff;
+        line-height: 3.5rem;
+    }
+    .about_tamagawa_02_text_under{
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 60px 0 40px 0;
+        line-height: 3.5rem;
+        background-color: #CDE0CD;
+    }
+    .about_02_decoration_right {
+        top: 130px;
+    }
+    /*--------------------
+    *about_03
+    ----------------------*/
+    .about_03{
+        height: 1160px;
+        padding: 0;
+    }
+    .about_03_top_left_decoration{
+        top: -250px;
+    }
+    .about_03_content{
+        display: block;
+    }
+    .about_tamagawa_03_text_top{
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 60px 0 40px 0;
+        line-height: 3.5rem;
+    }
+    .about_03_content_img{
+        width: 100vw;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-left: 3vw;
+    }
+
+    .about_tamagawa_03_text_under{
+        position: absolute;
+        z-index: 300;
+        top: 520px;
+        left: 13vw;  
+        font-weight: 500;
+        font-size: 1.7rem;
+        color: #fff;
+        line-height: 3.5rem;
+    }
+
+    .about_03_content_text_04{
+        text-align: left;
+        font-size: 1.7rem;
+        line-height: 4rem;
+        bottom: 100px;
+        color: #000;
+    }
+    .about_03_content_text_big_cloud{
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 4rem;
+        width: 90vw;
+        color: #fff;
+        text-align: left;
+        top: -420px;
+    }
+    .under_r180{
+        top: 250px;
+    }
+    .about_04_right_under_decoration{
+        top: 200px;
+    }
+    .about_big_cloud_sp img {
+        position: absolute;
+        z-index: 300;
+        left: 0;
+        top: -210px;
+    }
+    .about_04_content{
+        display: block;
+    }
+    .contents{
+        height: 0px;
+    }
+    .about_03_content_text_05{
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 4.5rem;
+        width: 90vw;
+        color: #fff;
+        text-align: left;
+        top: -470px;
+        left: 5vw;
+    }
+    .tamagawa_about04_top{
+        background-image: url(../images/activity/tamagawa/03/sp_04_box_top_img.jpg);
+        height: 420px;
+        top: 0;
+    }
+    .tamagawa_about04_under{
+        background-image: url(../images/activity/tamagawa/03/sp_04_box_under_img.jpg);
+        height: 420px;
+        top: -100px;
+    }
+    .about_03_under_left_decoration{
+        bottom: -100px;
+    }
+    /*--------------------
+    *about_04
+    ----------------------*/
+    .about_04_top_right_decoration{
+        top: 0px;
+        width: 3%;
+        max-width: 270px;
+        min-width: 95px;
+    }
+    .about_04{
+        height: 1180px;
+        top: -140px;
+    }
+    .activity_content_text{
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 1.7rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+    .about_04_previous{
+        margin: 0 10vw 40px;
+    }
+    .about_tamagawa_04_img_center{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .about_tamagawa_04_text_center{
+        position: absolute;
+        z-index: 300;
+        left: 70px;
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: #fff;
+        line-height: 3.5rem;
+        top: 620px;
+    }
+    .about_04_content div img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about_tamagawa_04_end{
+        display: flex;
+        margin: 0 10px 0;
+        align-items: center;
+    }
+    .about_tamagawa_04_end_text{
+        width: 120vw; 
+        font-size: 1.7rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+    .about_04_under_left_decoration{
+        left: 10px;
+        bottom: -30px;
+        width: 40px;
+    }
+    .about_tamagawa_04_end_im.sp{
+        width: 80%;
+    }
+    .footer {
+        margin-top: -165px;
+    }
+    
+    }
+
+

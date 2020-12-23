@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------
+* 下層ページ共有部分
+----------------------*/
+/*  hero*/
+.hero_cloud_left {
+    top: 390px;
+}
+.hero{
+    position: relative;
+}
+.parallax.hero{
+    height: 500px;
+}
+.hero_cloud_left {
+    top: 360px;
+}
+.home_hero {
+    height: 510px;
+}
+.common_unit_title {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+/*--------------------
+* history
+----------------------*/
+.title_history {
+    width: 270px;
+    height: 130px;
+    padding: 50px 0 120px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.common_unit_title_hostory {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 35px;
+    top: -1px;
+}
+.year{
+    position: absolute;
+    z-index: 100;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 143px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 0 21vw;
+    align-items: center;
+}
+/* 画像が左 */
+.img_left_content_bg {
+    display: flex;
+    align-items: center;
+}
+.content_img_left_top {
+    width: 355px;
+    margin: 0 5vw 0 0;
+}
+.content_img_left{
+    width: 355px;
+    margin: 0 5vw 0 0;
+}
+
+/* 画像が右 */
+.img_right_content_bg {
+    display: flex;
+    align-items: center;
+}
+.content_img_right{
+    width: 355px;
+    margin: 0 0 0 5vw;
+}
+/*--------------------
+*1999
+----------------------*/
+.about_1999{
+    background-image: url(../images/history/header_1999/background_left_history.png) , url(./images/history/header_1999/background_1999.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 50pt, right bottom 10pt;
+    background-size: 268px 406px, 327px 522px;
+}
+/*--------------------
+*2000
+----------------------*/
+.about_2000{
+    background-image: url(../images/history/2000/background_2000.png) , url(../images/history/2000/background_2000_right.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2002
+----------------------*/
+.about_2002{
+    background-image: url(../images/history/2002/background_2002_left.png) , url(../images/history/2002/background_2002.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2006
+----------------------*/
+.about_2006{
+    background-image: url(../images/history/2006/background_2006.png) , url(../images/history/2006/background_2006_left.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2008
+----------------------*/
+.about_2008{
+    background-image: url(../images/history/2008/background_2008_left.png) , url(../images/history/2008/background_2008.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px, 330px 400px;
+}
+/*--------------------
+*2010
+----------------------*/
+.about_2010{
+    background-image: url(../images/history/2010/background_2010.png) , url(../images/history/2010/background_2010_right.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2010
+----------------------*/
+.about_2010{
+    background-image: url(../images/history/2010/background_2010.png) , url(../images/history/2010/background_2010_right.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2012
+----------------------*/
+.about_2012{
+    background-image: url(../images/history/2012/background_2012_left.png) , url(../images/history/2012/background_2012.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2014
+----------------------*/
+.about_2014{
+    background-image: url(../images/history/2014/background_2014.png) , url(../images/history/2014/background_2014_right.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2015
+----------------------*/
+.about_2015{
+    background-image: url(../images/history/2015/background_2015_left.png) , url(../images/history/2015/background_2015.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2017
+----------------------*/
+.about_2017{
+    background-image: url(../images/history/2017/background_2017.png) , url(../images/history/2017/background_2017_right.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px;
+}
+/*--------------------
+*2018
+----------------------*/
+.about_2018{
+    background-image: url(../images/history/2018/background_2018_left.png) , url(../images/history/2018/background_2018.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 60pt, right bottom 60pt;
+    background-size: 260px 400px, 330px 400px;
+}
+
+/*--------------------
+*装飾
+----------------------*/
+.cloud_right_top {
+    position: absolute;
+    z-index: 200;
+    width: 28%;
+    max-width: 300px;
+    min-width: 100px;
+    right: 0px;
+    top: -200px;
+}
+.cloud_left{
+    top: -120px;
+}
+.cloud_right{
+    top: -230px;
+}
+.about_02_decoration_left {
+    position: absolute;
+    z-index: 300;
+    top: -250px;
+    top: -180px;
+    width: 220px;
+}
+.tree_r_b {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 45px;
+}
+.large_yellowgreen_r_t {
+    position: absolute;
+    right: 20px;
+    bottom: 150px;
+    width: 45px;
+}
+.crab_r_t {
+    position: absolute;
+    right: 70px;
+    top: 335px;
+    width: 35px;
+}
+.waves_r_t {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 325px;
+    width: 85px;
+}
+.ship_wave_r_t {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    bottom: 155px;
+    width: 85px;
+}
+.cloud_l_c{
+    position: absolute;
+    z-index: 200;
+    width: 28%;
+    max-width: 300px;
+    min-width: 100px;
+    left: 0px;
+    top: 250px;
+}
+.ship_wave_r_b {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    bottom: 75px;
+    width: 85px;
+}
+.cloud_right_bottom {
+    position: absolute;
+    z-index: 200;
+    width: 28%;
+    max-width: 300px;
+    min-width: 100px;
+    right: 0px;
+    top: 10px;
+}
+/*--------------------
+*ここからSP
+----------------------*/
+@media screen and (max-width:640px){
+    /* SP時のCSSをここに記入 */
+    /*--------------------
+    * sp_下層ページ共有部分
+    ----------------------*/
+    .hero_image_catch {
+        top: 250px;
+        left: 52%;
+    }
+    a[class="flow_line_white"] {
+        top: 440px;
+    }
+     /*--------------------
+    * 上下逆にする
+    アブソリュートで浮かして、padding-top
+    ----------------------*/
+    .wrap_change {
+        width: 200px;
+        position: relative;
+    }
+    .content{
+        display: block;
+        margin: 0 auto;
+        padding: 50px 0 0 0;
+        width: 100vw;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* 画像が左 */
+    .content_img_left_top {
+        position: absolute;
+        top: 10px;
+        left: 4vw;
+        width: 95vw;
+    }
+
+    .content_img_left {
+        position: absolute;
+        top: 10px;
+        left: 4vw;
+        width: 95vw;
+        margin: 45px 0 0 0;
+    }
+    .img_left_content_bg {
+        background-color: rgba(250,250,250,0.7);
+        margin: 0px 15px 0;
+    }
+    .content_text_right {
+        padding: 80vw 20px 40px;
+    } 
+    .content_text_right :nth-child(2){
+        margin: 30px 0 0 0 ;
+    }
+    /* 画像が右 */
+    .content_img_right {
+        position: absolute;
+        top: 10px;
+        left: 4vw;
+        width: 95vw; 
+        margin: 45px 0 0 0;   
+    }
+    .content_img_right {
+        position: absolute;
+        top: 10px;
+        left: 4vw;
+        width: 95vw;
+    }
+    .img_right_content_bg {
+        background-color: rgba(250,250,250,0.7);
+        margin: 0 14px 0 16px;
+    }
+    .content_text_left {
+        padding: 80vw 20px 40px;
+    } 
+    .content_text_left :nth-child(2){
+        margin: 30px 0 0 0 ;
+    }
+   
+    /*--------------------
+    * 上下逆にする
+    flex-direction: column-reverse;
+    ----------------------*/
+    /* 画像左
+    .img_left_content_bg {
+        background-color: rgba(250,250,250,0.5);
+    }
+    .content_img_left {
+        position: absolute;
+        top: 0;
+        left: 4vw;
+        width: 95vw;
+    }
+    .content_text_right {
+        padding-top: 80vw;
+    }
+    /* 画像右 */
+    /* .img_right_content_bg {
+        flex-direction: column-reverse;
+        background-color: rgba(250,250,250,0.5);
+    }
+    .content_text_left {
+        padding-top: 80vw;
+    }    */
+    
+
+    /*--------------------
+        * sp_history
+    ----------------------*/ 
+    .about_1999{
+        background-image: none;
+        background-image: url(../images/history/header_1999/background_left_history.svg);
+        background-position: right -90px bottom 118pt;
+        background-repeat: no-repeat;
+        height: 870px
+    }
+    .about_2000 {
+        background-image: none;
+        height: 720px;
+    }
+    .about_2002 {
+        height: 520px;
+        background-image: none;
+    }
+    .about_2006 {
+        height: 760px;
+        background-image: none;
+    }  
+    .about_2008 {
+        height: 570px;
+        background-image: none;
+    }   
+    .about_2010 {
+        height: 640px;
+        background-image: none;
+    }   
+    .about_2012 {
+        height: 640px;
+        background-image: none;
+    }   
+    .about_2014 {
+        height: 600px;
+        background-image: none;
+    }
+    .about_2015 {
+        height: 560px;
+        background-image: none;
+    }
+    .about_2017 {
+        height: 580px;
+        background-image: none;
+    }
+    .about_2018 {
+        height: 540px;
+        background-image: none;
+    }
+    .footer_footer {
+        margin-top: -20px;
+        padding-top: 20px;
+    }
+    /*--------------------
+        * sp_あしらい
+    ----------------------*/ 
+    .cloud_right {
+        top: 260px;
+    }
+    .cloud_left {
+        top: -40px;
+    }
+
+
+
+
+}

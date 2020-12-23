@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------
+* 下層ページ共有部分
+----------------------*/
+/*  hero*/
+.hero_cloud_left {
+    top: 390px;
+}
+.hero{
+    position: relative;
+}
+.parallax.hero{
+    height: 500px;
+}
+.hero_cloud_left {
+    top: 360px;
+}
+.home_hero {
+    height: 510px;
+}
+.common_unit_title {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+/*--------------------
+*acrivity_tamagawa
+----------------------*/
+.contact_img{
+    width: 720px;
+    margin: -20px 25%;
+    padding-bottom: 180px;
+}
+/*--------------------
+*ここからSP
+----------------------*/
+@media screen and (max-width:640px){
+    /* SP時のCSSをここに記入 */
+    /*--------------------
+    * sp_下層ページ共有部分
+    ----------------------*/
+    .hero_cloud_left {
+        top: 400px;
+    }
+    .parallax.hero {
+        height: 800px;
+    }
+    .hero_image_catch {
+        top: 250px;
+        left: 52%;
+    }
+      a[class="flow_line_white"] {
+        top: 440px;   
+    }
+    .waves{
+        margin: 0 auto;
+    }
+    .waves.hero{
+        top: 0px;
+        margin-top: -30px;
+    }
+    /*--------------------
+    *newsbody
+    ----------------------*/
+    .contact_img{
+        width: 100vw;
+        margin: 0 auto;
+        padding-bottom: 60px;
+    }
+}
